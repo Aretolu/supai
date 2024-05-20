@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+/* home */
+.hero {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../images/hotel.jpg);
+    background-size: cover;
+    background-size: 20% 20%;
+    background-repeat: no-repeat;
+
+    background-size: cover;
+    background-position: center;
+}
+
+.hero>h1 {
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    text-shadow: -5px 5px 5px rgb(0, 140, 255);
+    font-family: lobster;
+}
+
+h2 {
+    font-family: ArchivoBlack;
+    text-align: center;
+    margin: 10px;
+}
+
+.navbar-brand img {
+    width: 50px;
+}
+
+.navbar-brand {
+    font-family: lobster;
+}
+
+.fgrid {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    grid-auto-rows: minmax(300px, auto);
+}
+
+.fgrid img {
+    width: 100%;
+    height: 300px;
+}
+
+.dem>a {
+    text-decoration: none;
+    color: black;
+}
+
+.dem>a:hover {
+    text-decoration: underline;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: minmax(300px, auto);
+    gap: 20px;
+}
+
+.grid img {
+    width: 100%;
+    height: 280px;
+}
+
+.fate {
+    box-shadow: 0 0 5px rgba(21, 88, 233, 0.856);
+    margin: 10px 0 10px 0;
+}
+
+.over {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-auto-rows: minmax(300px, auto);
+    gap: 20px;
+}
+
+.fada {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    text-align: center;
+}
+
+.fada>div img {
+    width: 300px;
+    height: 300px;
+    margin-bottom: 10px;
+}
+
+.con>a:hover {
+    transform: scale(2.1);
+}
+
+.board {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../images/iuyg/conference-room-1146244_1280.jpg);
+    background-size: contain;
+    background-size: 20% 20%;
+    background-repeat: no-repeat;
+
+    background-size: cover;
+    background-position: center;
+}
+
+.spak {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+form>input {
+    border: none;
+}
+
+.demo {
+    background-color: palevioletred;
+    color: white;
+    padding: 10px;
+}
+
+
+.font {
+    border: none;
+    border-radius: 50%;
+    background-color: white;
+    width: 100px;
+    height: 100px;
+}
+
+.com {
+    width: 450px;
+    padding: 5px;
+}
+
+textarea {
+    height: 200px;
+}
+
+.contact a {
+    text-decoration: none;
+    color: white;
+}
